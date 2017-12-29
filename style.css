@@ -13,23 +13,24 @@ article{
 
 #maintitle{
   text-align: center;
-  font-size: 45px;
+  font-size: 50px;
   border-bottom: solid 2px;
   padding-bottom: 30px;
   margin-bottom: 0px;
 }
 
 #title{
-  font-size: 25px;
+  font-size: 30px;
 }
 
 #list{
   margin-top: 0px;
   margin-bottom: 0px;
-  width: 120px;
+  width: 135px;
   border-right: solid 2px;
   padding-left: 60px;
   padding-top: 30px;
+  font-size: 20px;
 }
 
 #content_space{
