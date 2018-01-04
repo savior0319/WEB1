@@ -19,11 +19,15 @@ img {
 }
 
 #maintitle {
+  background-color: rgba(46, 46, 46, 0.3);
+  padding-top: 20px;
   text-align: center;
   font-size: 50px;
   border-bottom: solid 2px gray;
   padding-bottom: 30px;
   margin-bottom: 0px;
+  margin-top: 0;
+
 }
 
 #title {
@@ -53,10 +57,12 @@ img {
 }
 
 #footer {
+  color: rgb(48, 48, 48);
   padding-top: 30px;
   padding-bottom: 30px;
   border-top: 2px solid gray;
   text-align: center;
+  background-color: rgba(46, 46, 46, 0.3);
 }
 
 .grid {
@@ -81,7 +87,7 @@ img {
 
 .maintitle-font{
   text-decoration: none;
-  color: rgb(51, 48, 51);
+  color: rgb(48, 48, 48);
 }
 
 @media screen and (max-width: 1000px) {
