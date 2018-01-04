@@ -27,7 +27,6 @@ img {
   padding-bottom: 30px;
   margin-bottom: 0px;
   margin-top: 0;
-
 }
 
 #title {
@@ -72,7 +71,7 @@ img {
 
 .linkfont {
   text-decoration: none;
-  color : black;
+  color: black;
 }
 
 .linkfont1 {
@@ -85,7 +84,7 @@ img {
   color: rgb(37, 180, 209);
 }
 
-.maintitle-font{
+.maintitle-font {
   text-decoration: none;
   color: rgb(48, 48, 48);
 }
