@@ -1,35 +1,86 @@
-<!DOCTYPE html> <html>
+<!DOCTYPE html>
+<html>
 
-<head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width,
-initial-scale=1.0"> <title>-My Page-</title> <link rel="stylesheet"
-href="style.css" /> </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+  <title>-My Page-</title>
+  <link rel="stylesheet" href="style.css" /> </head>
 
-<body> <header> <h1 id="maintitle"><a class="maintitle-font"
-href="index.html">My Page</a></h1> </header>
+<body>
+  <header>
+    <h1 id="maintitle">
+      <a class="maintitle-font" href="index.html">My Page</a>
+    </h1>
+  </header>
+  <div class="grid">
+    <ul id="list">
+      <li>
+        <a class="linkselectfont" href="1.html">페이지1</a>
+        <li>페이지2 </ul>
 
-  <div class="grid"> <ul id="list"> <li><a class="linkselectfont"
-  href="1.html">페이지1</a> <li>페이지2 </ul>
-
-    <div id="content_space"> <P id="line"></P> <P id="title">페이지1 제목</P>
-    <article> <form value="1.html"> 선택1 : <input type="radio" name="radiogroup">
-    선택2 : <input type="radio" name="radiogroup"> 선택3 : <input type="radio"
-    name="radiogroup"> <br /><br /> 체크박스1 <input type="checkbox"
-    name="checkgroup" /> 체크박스2 <input type="checkbox" name="checkgroup" /> 체크박스3
-    <input type="checkbox" name="checkgroup" /><br /><br /> 아 이 디 : <input
-    type="text" name="id" /><br /><br /> 비빌번호 : <input type="password"
-    name="pwd" /> <input type="submit" name="submit" value="로그인" /> </form> </P>
-    </br> </br> </br> <div id="disqus_thread"></div> <script> (function() { var
-    d = document, s = d.createElement('script'); s.src =
-    'https://ahjweb.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new
-    Date()); (d.head || d.body).appendChild(s); })(); </script> <noscript>Please
-    enable JavaScript to view the <a
-    href="https://disqus.com/?ref_noscript">comments powered by
-    Disqus.</a></noscript> </article> </div> <div id="ad"> AD </div> </div> <div
-    id="disqus_thread"></div> <script> (function() { var d = document, s =
-    d.createElement('script'); s.src = 'https://ahjweb.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date()); (d.head ||
-    d.body).appendChild(s); })(); </script> <noscript>Please enable JavaScript
-    to view the <a href="https://disqus.com/?ref_noscript">comments powered by
-    Disqus.</a></noscript> <footer id="footer">FOOTER</footer> </body>
+    <div id="content_space">
+      <P id="line"></P>
+      <P id="title">페이지1 제목</P>
+      <article>
+        <form value="1.html"> 선택1 :
+          <input type="radio" name="radiogroup"> 선택2 :
+          <input type="radio" name="radiogroup"> 선택3 :
+          <input type="radio" name="radiogroup">
+          <br />
+          <br /> 체크박스1
+          <input type="checkbox" name="checkgroup" /> 체크박스2
+          <input type="checkbox" name="checkgroup" /> 체크박스3
+          <input type="checkbox" name="checkgroup" />
+          <br />
+          <br /> 아 이 디 :
+          <input type="text" name="id" />
+          <br />
+          <br /> 비빌번호 :
+          <input type="password" name="pwd" />
+          <input type="submit" name="submit" value="로그인" /> </form>
+        </P>
+        </br>
+        </br>
+        </br>
+        <div id="disqus_thread"></div>
+        <script>
+          (function () {
+            var
+              d = document,
+              s = d.createElement('script');
+            s.src =
+              'https://ahjweb.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+          })();
+        </script>
+        <noscript>Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.
+          </a>
+        </noscript>
+      </article>
+    </div>
+    <div id="ad"> AD </div>
+  </div>
+  <div id="disqus_thread"></div>
+  <script>
+    (function () {
+      var d = document,
+        s =
+        d.createElement('script');
+      s.src = 'https://ahjweb.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head ||
+        d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the
+    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.
+    </a>
+  </noscript>
+  <footer id="footer">FOOTER</footer>
+</body>
 
 </html>
